@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
   [0,4,8], [2,4,6]
 ]
 
-board = ["X", "X", "O", "X", " ", "X", "O", "O", "X"]
+board = ["X", "X", "X", "X", " ", "X", "O", "O", "X"]
 
 def won?(board)
   if(board[0] == board[1] && board[0] == board[2] && position_taken?(board, 0))
