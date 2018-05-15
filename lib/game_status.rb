@@ -89,7 +89,7 @@ end
 def winner(board)
   if won?(board) != false
     won_line = won?(board)
-    return won_line
+    return board[won_line[0]]
   else
     return nil
   end
